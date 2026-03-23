@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maksim Kokorev – Backend &amp; Systems Engineer</title>
+  <title>Maksim Kokorev – Junior Web Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
@@ -20,7 +20,7 @@
     <div class="header-top">
       <div>
         <div class="name">Maksim Kokorev</div>
-        <div class="title">Backend &amp; Systems Engineer</div>
+        <div class="title">Junior Web Developer</div>
       </div>
       <div class="contact-info">
         <a href="mailto:your@email.com">your@email.com</a><br />
@@ -35,12 +35,13 @@
   <section class="section summary" aria-label="Professional Summary">
     <h2 class="section-title">Summary</h2>
     <p>
-      Backend engineer with a systems mindset. Builds tools and services that simplify
-      processes, automate workflows, and solve practical engineering problems. Experienced
-      with Python (FastAPI, async), C/C++ systems programming (42 Berlin), and JVM tooling
-      (Kotlin/Java, IntelliJ Platform SDK). Background as a system/business analyst
-      delivering ERP integrations and SQL-driven automation. Engineering graduate of Bauman
-      Moscow State Technical University.
+      Front-end focused developer eager to build responsive, user-friendly websites and
+      grow through hands-on collaboration. Comfortable with HTML5, CSS3, JavaScript (ES6+),
+      and Three.js; familiar with Python for light back-end tasks. Built and shipped personal
+      projects from scratch — including two interactive 3D websites (a music collective promo
+      and an experimental content browser, both powered by Three.js) — and looking to bring that same energy and attention to detail to a junior
+      role at a product-driven team. Quick learner who communicates clearly, meets deadlines
+      reliably, and thrives in environments where there is always something new to pick up.
     </p>
   </section>
 
@@ -49,24 +50,20 @@
     <h2 class="section-title">Technical Skills</h2>
     <div class="skills-grid">
       <div class="skill-group">
-        <strong>Backend:</strong>
-        <span>Python 3.8+ (FastAPI, async), REST APIs, SQL, PostgreSQL</span>
+        <strong>Front-End:</strong>
+        <span>HTML5, CSS3, JavaScript (ES6+), responsive design, CSS Flexbox &amp; Grid</span>
       </div>
       <div class="skill-group">
-        <strong>Systems:</strong>
-        <span>C (memory management, processes, sockets), C++ (OOP, templates, STL, RTTI)</span>
+        <strong>Frameworks &amp; Libraries:</strong>
+        <span>Three.js / WebGL, Telegram Bot API</span>
       </div>
       <div class="skill-group">
-        <strong>JVM / IDE:</strong>
-        <span>Kotlin, Java, IntelliJ Platform SDK, Grammar-Kit, JFlex, Gradle</span>
+        <strong>Back-End (basics):</strong>
+        <span>Python (scripting, FastAPI basics), REST APIs, SQL</span>
       </div>
       <div class="skill-group">
-        <strong>DevOps &amp; Tools:</strong>
-        <span>Docker, Docker Compose, Nginx, Linux, Shell, Git, Make</span>
-      </div>
-      <div class="skill-group">
-        <strong>Web &amp; Other:</strong>
-        <span>HTML, CSS, JavaScript, TypeScript, Three.js / WebGL, FFmpeg, Telegram Bot API</span>
+        <strong>Tools &amp; Version Control:</strong>
+        <span>Git, GitHub, Linux, Shell, Docker (familiar), Make</span>
       </div>
     </div>
   </section>
@@ -79,16 +76,16 @@
     <div class="entry">
       <div class="entry-header">
         <span class="entry-title">
-          <a href="https://github.com/tghnx1/custom-exec-runner" target="_blank" rel="noopener">
-            Custom Exec Runner – IntelliJ IDEA Plugin
+          <a href="https://github.com/tghnx1/tetra" target="_blank" rel="noopener">
+            Tetra – DJ Promo Press Kit
           </a>
         </span>
-        <span class="entry-meta">Kotlin · IntelliJ Platform SDK</span>
+        <span class="entry-meta">HTML · CSS · JavaScript · Three.js / WebGL</span>
       </div>
       <ul>
-        <li>Built an IntelliJ IDEA plugin that adds a custom Run/Debug Configuration for executing arbitrary binaries (rustc, cargo, or any filesystem executable) with user-defined arguments.</li>
-        <li>Output streamed live in the IDE Run Console; UI state persisted across sessions.</li>
-        <li>Covered edge cases: missing executables, PATH resolution failures, empty/whitespace arguments, non-executable files.</li>
+        <li>Built a multi-page promotional website for a music collective — a 3D interactive tetrahedron serves as the navigation hub, with each face linking to a dedicated artist page (Atmos, Babbibrun, Holywanderer, Promo).</li>
+        <li>Shared the same ES-module architecture as the Cube project (scene, tetrahedron, controls, animate) with separate per-artist HTML pages and a shared CSS stylesheet.</li>
+        <li>Implemented custom drag/click event listeners for rotating and clicking the 3D shape, and responsive layout adjustments for mobile viewports.</li>
       </ul>
     </div>
 
@@ -96,15 +93,16 @@
     <div class="entry">
       <div class="entry-header">
         <span class="entry-title">
-          <a href="https://github.com/tghnx1/Cobol_Plugin" target="_blank" rel="noopener">
-            COBOL Language Plugin – IntelliJ IDEA
+          <a href="https://github.com/tghnx1/Cube" target="_blank" rel="noopener">
+            Cube – Interactive 3D Website
           </a>
         </span>
-        <span class="entry-meta">Java · Kotlin · Grammar-Kit · JFlex</span>
+        <span class="entry-meta">HTML · CSS · JavaScript · Three.js / WebGL</span>
       </div>
       <ul>
-        <li>Implemented a minimal COBOL language plugin for IntelliJ IDEA covering the full plugin pipeline: JFlex lexer, Grammar-Kit parser, PSI tree construction, and syntax highlighting for <code>.cob</code> / <code>.cbl</code> files.</li>
-        <li>Correctly tokenises and highlights numbers, string literals, identifiers, and operators without relying on existing COBOL grammars.</li>
+        <li>Built a multi-page interactive website centred around a 3D cube rendered in the browser with Three.js and WebGL — pages include About, Playground, and several content-driven sections.</li>
+        <li>Architected the front-end as clean ES modules (scene, cube, controls, animation, sound, playButton) served via Vite, demonstrating modular JavaScript organisation.</li>
+        <li>Implemented custom keyboard and mouse event listeners for real-time cube interaction, a renderer animation loop, and Web Audio integration for sound feedback.</li>
       </ul>
     </div>
 
@@ -113,57 +111,25 @@
       <div class="entry-header">
         <span class="entry-title">
           <a href="https://github.com/tghnx1/Inception42" target="_blank" rel="noopener">
-            Inception42 – Containerised Web Infrastructure
+            Inception42 – Containerised Web Stack
           </a>
         </span>
-        <span class="entry-meta">Docker · Docker Compose · Nginx · MariaDB · WordPress</span>
+        <span class="entry-meta">Docker · Nginx · WordPress · MariaDB</span>
       </div>
       <ul>
-        <li>Set up a fully containerised LEMP-style stack (Nginx TLS termination → WordPress → MariaDB) using custom Dockerfiles with no pre-built images.</li>
-        <li>Managed persistent Docker volumes, Docker Compose orchestration, and a Makefile-based lifecycle (build, teardown, full rebuild, log tailing).</li>
+        <li>Set up a self-hosted LEMP stack (Nginx + WordPress + MariaDB) with Docker Compose as part of the 42 Berlin curriculum — gaining practical understanding of how web servers and CMS platforms are deployed.</li>
+        <li>Configured Nginx as a reverse proxy with TLS termination; experience directly applicable to deploying and maintaining front-end projects in production.</li>
       </ul>
     </div>
 
     <!-- Project 4 -->
     <div class="entry">
       <div class="entry-header">
-        <span class="entry-title">
-          <a href="https://github.com/tghnx1/From-WAV-to-FLAC-converter" target="_blank" rel="noopener">
-            FLAC → WAV Batch Converter
-          </a>
-        </span>
-        <span class="entry-meta">Python · FFmpeg · ThreadPoolExecutor</span>
-      </div>
-      <ul>
-        <li>Built a multithreaded batch audio converter (FLAC → WAV) with automatic bit-depth detection via <code>ffprobe</code>, correct PCM codec selection (16/24/32-bit), and full metadata + embedded cover preservation.</li>
-        <li>Handles corrupted files, missing FFmpeg, and metadata errors gracefully; cross-platform (macOS, Linux, Windows).</li>
-      </ul>
-    </div>
-
-    <!-- Project 5 -->
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">
-          <a href="https://github.com/tghnx1/tetra" target="_blank" rel="noopener">
-            Tetra – DJ Promo Press Kit
-          </a>
-        </span>
-        <span class="entry-meta">HTML · CSS · JavaScript</span>
-      </div>
-      <ul>
-        <li>Designed and built a multi-page promotional website for a DJ act, including media embeds and responsive layout.</li>
-      </ul>
-    </div>
-
-    <!-- Project 6 -->
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">42 Berlin Curriculum Projects</span>
+        <span class="entry-title">42 Berlin Curriculum – Selected Projects</span>
         <span class="entry-meta">C · C++</span>
       </div>
       <ul>
-        <li>Completed core 42 projects: <em>libft</em>, <em>ft_printf</em>, <em>get_next_line</em>, <em>pipex</em>, <em>push_swap</em>, <em>FdF</em>, <em>Philosophers</em>, C++ Modules 0–9.</li>
-        <li>Topics covered: memory management, linked lists, sorting algorithms, process/thread synchronisation (dining philosophers), 3D wireframe rendering, OOP, templates, exceptions, and STL.</li>
+        <li>Completed core 42 projects covering algorithms, data structures, and OOP; built strong fundamentals in problem-solving and writing clean, maintainable code under peer-review constraints.</li>
       </ul>
     </div>
   </section>
@@ -178,9 +144,9 @@
         <span class="entry-meta">[Dates] · [Company]</span>
       </div>
       <ul>
-        <li>Delivered production integrations and automation across ERP systems using REST APIs and SQL.</li>
-        <li>Analysed and documented business processes; translated requirements into technical specifications for development teams.</li>
-        <li>Worked with structured data pipelines and database queries to support operational reporting.</li>
+        <li>Collaborated with development teams to translate business requirements into clear technical specifications — practising the same written communication and stakeholder coordination expected in a web developer role.</li>
+        <li>Worked alongside developers integrating REST APIs and SQL-driven data pipelines; gained first-hand understanding of how front-end interfaces consume back-end data.</li>
+        <li>Documented and tested system workflows end-to-end, developing attention to detail in identifying edge cases — a skill directly applicable to UI bug-finding and technical QA.</li>
       </ul>
     </div>
   </section>
